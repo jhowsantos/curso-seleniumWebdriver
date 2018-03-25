@@ -1,0 +1,6 @@
+testAdicionarUmaInformacaoAdicionalDoUsuario,tipo,contato,mensagemEsperada,Duration(ms)
+"",Phone,+5511999998888,Your contact has been added!,778.0
+"",Phone,+5511999997777,Your contact has been added!,606.0
+"",Phone,+5511123457777,Your contact has been added!,680.0
+"",E-mail,email@email01.com,Your contact has been added!,676.0
+"",E-mail,email@email02.com,Your contact has been added!,609.0
