@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DarPromocaoTest" project="GerenciarFuncionario" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="test.DarPromocaoTest" time="0.002">
+    <testcase name="testDarPromocaoAnalistaJr" classname="test.DarPromocaoTest" time="0.001"/>
+    <testcase name="testDarPromocaoAnalistaSr" classname="test.DarPromocaoTest" time="0.001"/>
+    <testcase name="testDarPromocaoEstagiario" classname="test.DarPromocaoTest" time="0.0"/>
+    <testcase name="testDarPromocaoDiretor" classname="test.DarPromocaoTest" time="0.0"/>
+    <testcase name="testGerenteAutorizadoParaDarPromocao" classname="test.DarPromocaoTest" time="0.0"/>
+  </testsuite>
+</testrun>

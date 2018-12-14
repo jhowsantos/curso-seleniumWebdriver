@@ -1,0 +1,16 @@
+
+public class Funcionario {
+	private String nome;
+	private String cargo;
+	private double salario;
+	private int tempoDeEmpresa;
+	
+	public Funcionario (String nome, String cargo, double salario, int tempoDeEmpresa){
+		this.nome = nome;
+		this.cargo = cargo;
+		this.salario = salario;
+		this.tempoDeEmpresa = tempoDeEmpresa;
+	}
+	
+	
+}

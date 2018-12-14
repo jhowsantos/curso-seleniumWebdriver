@@ -1,0 +1,11 @@
+# language: pt
+
+Funcionalidade: Aprender Cucumber
+	Como um aluno
+	Eu quero aprender a utilizar Cucumber
+	Para que eu possa automatizar crit�rios de aceita��o
+	
+Cenario: Deve executar especifica��o
+	Dado que criei o arquivo corretamente
+	Quando execut�-lo
+	Ent�o a especifica��o deve finalizar com sucesso

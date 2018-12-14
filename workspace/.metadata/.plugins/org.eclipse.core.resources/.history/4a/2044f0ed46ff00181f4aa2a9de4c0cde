@@ -1,0 +1,67 @@
+package test;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import main.Funcionario;
+import main.Gerente;
+
+public class DarPromocaoTest {
+
+	// Criando um gerente com permissão para dar promoção
+	Gerente gerente1 = new Gerente("José", true);
+	// Criando um gerente sem permissão para dar promoção
+	Gerente gerente2 = new Gerente("Silva", false);
+
+	// Criando um funcionario estágiario
+	Funcionario estagiario = new Funcionario("Junior", "estagiario", 1.000, 6);
+
+	// Criando um funcionario analista Junior
+	Funcionario analistaJunior = new Funcionario("Lucas", "analistaJr", 2.000, 1);
+
+	// Criando um funcionario analista Senior
+	Funcionario analistaSenior = new Funcionario("Junior", "analistaSr", 5.000, 10);
+
+	// Criando um funcionario Diretor
+	Funcionario diretor = new Funcionario("Stark", "diretor", 35.000, 20);
+
+	@Test
+	public void testGerenteAutorizadoParaDarPromocao() {
+
+		// Verifica se gerente1 pode dar promoção
+		Assert.assertTrue(gerente1.isPodeDarPromocao());
+
+		// Verifica se gerente2 não pode dar promoção
+		Assert.assertFalse(gerente2.isPodeDarPromocao());
+	}
+
+	@Test
+	public void testDarPromocaoEstagiario() {
+		if(analistaJunior.getCargo().equals("estagiario") && analistaJunior.getTempoDeEmpresa() >= 6){
+			double salario = analistaJunior.getSalario();
+			
+			//salario recebe bonificação de 500.00 por merito
+			salario += 500;
+			
+			analistaJunior.setSalario(salario);
+			
+			Assert.assertEquals(1.500, salario);
+		}
+	}
+	
+	@Test
+	public void testDarPromocaoAnalistaJr() {
+		
+	}
+	
+	@Test
+	public void testDarPromocaoAnalistaSr() {
+		
+	}
+	
+	@Test
+	public void testDarPromocaoDiretor() {
+		
+	}
+
+}

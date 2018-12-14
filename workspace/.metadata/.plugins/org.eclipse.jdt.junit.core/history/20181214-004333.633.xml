@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CursoCucumber" tests="30" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="runners.Runner" incomplete="true">
+    <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-2PANHDE', ip: '192.168.237.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\Jhow\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: 82f1a7c7ffe9f2c4b8bc7e1228f6cb90&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)&#13;
+	at runners.Runner.reset(Runner.java:29)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    <testsuite name="Funcionalidade: Cadastro de contas" incomplete="true">
+      <testsuite name="Esquema do Cenário: Deve validar regras cadastro contas" incomplete="true">
+        <testsuite name="Exemplos:" incomplete="true">
+          <testsuite name="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true">
+            <testcase name="Dado que estou acessando a aplicação" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="Quando informo o usuário &quot;jhonatas@teste.com&quot;" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="E a senha &quot;teste&quot;" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="E seleciono entrar" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="Então visualizo a página inicial" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="Quando seleciono Contas" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="E seleciono Adicionar" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="Quando informo a conta &quot;Conta de teste&quot;" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="E seleciono Salvar" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+            <testcase name="Então recebo a mensagem &quot;Conta adicionada com sucesso!&quot;" classname="| Conta de teste | Conta adicionada com sucesso! |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="|  | Informe o nome da conta |" incomplete="true">
+            <testcase name="Dado que estou acessando a aplicação" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="Quando informo o usuário &quot;jhonatas@teste.com&quot;" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="E a senha &quot;teste&quot;" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="E seleciono entrar" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="Então visualizo a página inicial" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="Quando seleciono Contas" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="E seleciono Adicionar" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="Quando informo a conta &quot;&quot;" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="E seleciono Salvar" classname="|  | Informe o nome da conta |" incomplete="true"/>
+            <testcase name="Então recebo a mensagem &quot;Informe o nome da conta&quot;" classname="|  | Informe o nome da conta |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true">
+            <testcase name="Dado que estou acessando a aplicação" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="Quando informo o usuário &quot;jhonatas@teste.com&quot;" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="E a senha &quot;teste&quot;" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="E seleciono entrar" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="Então visualizo a página inicial" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="Quando seleciono Contas" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="E seleciono Adicionar" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="Quando informo a conta &quot;Conta de teste&quot;" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="E seleciono Salvar" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+            <testcase name="Então recebo a mensagem &quot;Já existe uma conta com esse nome!&quot;" classname="| Conta de teste | Já existe uma conta com esse nome! |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
